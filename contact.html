@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты | Rockstar Games</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/logo.png">
+    
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="games.html">Все игры</a></li>
+                <li><a href="gta-series.html">Серия GTA</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="about.html">О компании</a></li>
+		<li><a href="downloads.html">Загрузки</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>Свяжитесь с нами</h1>
+            <p>Мы всегда рады вашим вопросам и предложениям</p>
+        </div>
+    </header>
+
+    <main class="main-content contact-page">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Контактная информация</h2>
+                    
+                    <div class="info-item">
+                        <h3>Штаб-квартира</h3>
+                        <p>Rockstar Games, 622 Broadway, New York, NY 10012, USA</p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <h3>Техническая поддержка</h3>
+                        <p>Email: <a href="mailto:support@rockstargames.com">support@rockstargames.com</a></p>
+                        <p>Телефон: +1 (646) 536-2842</p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <h3>Пресс-служба</h3>
+                        <p>Email: <a href="mailto:press@rockstargames.com">press@rockstargames.com</a></p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <h3>Карьера</h3>
+                        <p>Email: <a href="mailto:jobs@rockstargames.com">jobs@rockstargames.com</a></p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <h3>Часы работы</h3>
+                        <p>Понедельник - Пятница: 9:00 - 18:00 (EST)</p>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://facebook.com/rockstargames" target="_blank">
+                            <img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="Facebook">
+                        </a>
+                        <a href="https://twitter.com/RockstarGames" target="_blank">
+                            <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter">
+                        </a>
+                        <a href="https://instagram.com/rockstargames" target="_blank">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+                        </a>
+                        <a href="https://youtube.com/rockstargames" target="_blank">
+                            <img src="https://cdn-icons-png.flaticon.com/512/733/733646.png" alt="YouTube">
+                        </a>
+                        <a href="https://twitch.tv/rockstargames" target="_blank">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111668.png" alt="Twitch">
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h2>Форма обратной связи</h2>
+                    <form action="https://formsubmit.co/your@email.com" method="POST">
+                        <div class="form-group">
+                            <label for="name">Ваше имя</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Тема</label>
+                            <select id="subject" name="subject" required>
+                                <option value="" disabled selected>Выберите тему</option>
+                                <option value="support">Техническая поддержка</option>
+                                <option value="feedback">Отзыв о игре</option>
+                                <option value="press">Пресс-запрос</option>
+                                <option value="career">Карьера</option>
+                                <option value="other">Другое</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Сообщение</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html">
+                        
+                        <button type="submit" class="submit-btn">Отправить</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.017603109344!2d-73.99982168459413!3d40.72562397932948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598a9a1b8249%3A0x4d01c2d5e4eb5e3e!2sRockstar%20Games!5e0!3m2!1sen!2sus!4v1623256789019!5m2!1sen!2sus" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 Rockstar Games. Все права защищены.</p>
+            <p>Take-Two Interactive Software, Inc.</p>
+        </div>
+    </footer>
+</body>
+</html>
